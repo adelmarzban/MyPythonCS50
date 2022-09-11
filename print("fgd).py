@@ -1,1 +1,1 @@
-help()
+print ("Hello Dear Friend")
