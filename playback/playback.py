@@ -1,3 +1,3 @@
 txt=input("What is your text?")
-txtNewFormat=txt.lower()
-print("your text in lowercase is:", txtNewFormat)
+NewFormat=txt.replace(" ","....")
+print("your text in new format is:", NewFormat)
