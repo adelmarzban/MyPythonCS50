@@ -1,6 +1,6 @@
 try:
     Fraction = input("Fraction=")
-    Fraction2 = Fraction.split("/")
+    x , y = Fraction.split("/")
 
     if (int(Fraction2[0])/int(Fraction2[1]))*100 >= int("99"):
         print ("F")
