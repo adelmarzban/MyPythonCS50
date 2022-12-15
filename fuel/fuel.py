@@ -1,2 +1,3 @@
 a1 = "1/4"
-a2= a1.split("/")
+a2 = a1.split("/")
+print(a2)
