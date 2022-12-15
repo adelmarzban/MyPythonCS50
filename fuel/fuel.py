@@ -6,7 +6,7 @@ try:
         print ("F")
     elif (int(Fraction2[0])/int(Fraction2[1]))*100 <= int("1"):
         print ("E")
-    else: print(round((int(Fraction2[0]) / int(Fraction2[1])) * 100 ))
+    else: print(round((int(Fraction2[0]) / int(Fraction2[1])) * 100 ),"%")
 
 
 except :
