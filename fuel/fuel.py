@@ -8,7 +8,7 @@ try:
            print ("F")
            print ("E")
         else:
-            print(int(x/y * 100), "%")
+            print(int(x/y * 100)+ "%")
 
 
 except :
