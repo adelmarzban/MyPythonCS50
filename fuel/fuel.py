@@ -6,9 +6,10 @@ try:
         y=int(y)
         if (x/y)*100 >= int("99"):
            print ("F")
+        elif (x/y)*100 <= int("1"):
            print ("E")
         else:
-            print(int(x/y * 100)+ "%")
+            print(f"{int(x / y * 100)}%")
 
 
 except :
