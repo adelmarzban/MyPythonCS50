@@ -8,4 +8,3 @@ if len(plate)<=6 and len(plate)>=2 \
     print("Valid")
 else:
     print("Invalid")
-cs
