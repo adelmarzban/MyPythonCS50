@@ -4,15 +4,18 @@ while True:
         x0, y0 = Fraction.split ("/")
         x1 = int (x0)
         y1 = int (y0)
+        fuel = x1/y1
         #print (x1, y1)
         #print (type (x1))
         #print (type (x1))
-        if (x1 / y1) * 100 == int ("99") or (x1 / y1) * 100 == int ("100"):
+        if fuel < 1:
+            break
+        if (fuel) * 100 == int ("99") or (fuel) * 100 == int ("100"):
             print ("F")
-        elif (x1 / y1) * 100 <= int ("1"):
+        elif (fuel) * 100 <= int ("1"):
             print ("E")
         else:
-            print (str (round (x1 / y1 * 100)) + "%")
+            print (str (round (fuel * 100)) + "%")
     except (ValueError, ZeroDivisionError):
         break
     break
