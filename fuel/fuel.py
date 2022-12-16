@@ -9,7 +9,7 @@ try:
         elif (x/y)*100 <= int("1"):
            print ("E")
         else:1
-            print(f"{int(x / y * 100)}%")
+            print(f"{int(x / y * 100)"}%)
 
 
 except :
