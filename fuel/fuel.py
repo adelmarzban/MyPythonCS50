@@ -12,7 +12,7 @@ while True:
         pass
 if f*100 <= 1:
     print ("E")
-if f*100 >= 99:
+elif f*100 >= 99:
     print ("F")
 else:
     print(str(round(f*100))+"%")
