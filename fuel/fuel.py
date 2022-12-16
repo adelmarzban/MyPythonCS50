@@ -1,7 +1,7 @@
 try:
     Fraction = input("Fraction=")
     x , y = Fraction.split("/")
-    if x.isnumeric() and y.isnumeric:
+    if x.isnumeric() and y.isnumeric and y > 0:
         x=int(x)
         y=int(y)
         if (x/y)*100 >= int("99"):
