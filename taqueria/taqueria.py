@@ -13,8 +13,8 @@ menu = {
 while True:
     try:
         order = input("order? ")
-        if order.title () in menu:
-            i=i+menu[order]
+        if order.title() in menu:
+            i=i+menu[order.title()]
             #print(i)
             #print ("$%.2f" % (i))
             print ("Total:" ,"$%.2f" % (i))
