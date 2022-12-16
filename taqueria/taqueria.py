@@ -1,3 +1,4 @@
+i=0
 menu = {
     "Baja Taco": 4.00,
     "Burrito": 7.50,
@@ -12,7 +13,9 @@ menu = {
 while True:
     try:
         order = input("order? ")
-        if order.title() in menu:
-            print("$%.2f" % (menu[order.title()]))
+        if order.title () in menu:
+            i=i+menu[order]
+            #print(i)
+            print ("$%.2f" % (i))
     except(EOFError):
         break
