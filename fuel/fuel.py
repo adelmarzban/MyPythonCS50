@@ -8,7 +8,7 @@ try:
            print ("F")
         elif (x/y)*100 <= int("1"):
            print ("E")
-        else:
+        else:1
             print(f"{int(x / y * 100)}%")
 
 
