@@ -14,11 +14,11 @@ while True:
     try:
         order = input("order? ")
         if order.title () in menu:
-            i=menu[order]
+            i=i+menu[order]
             #print(i)
             #print ("$%.2f" % (i))
-            print ("$%.2f" % (menu[order]))
+            print ("Total:" ,"$%.2f" % (i))
     except(EOFError):
-        i = i + menu[order]
-        print ("$%.2f" % (i))
+        #i = i + menu[order]
+        print ("Total:" ,"$%.2f" % (i))
         break
