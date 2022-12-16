@@ -17,7 +17,7 @@ while True:
         else:
             print (str (round (fuel * 100)) + "%")
     except (ZeroDivisionError):
-        print("ZeroDivisionError")
+        break
     except (ValueError):
         print (ValueError)
         break
