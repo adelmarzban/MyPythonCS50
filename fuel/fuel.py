@@ -8,8 +8,8 @@ try:
            print ("F")
         elif (x/y)*100 <= int("1"):
            print ("E")
-        else:1
-            print(f"{int(x / y * 100)"}%)
+        else:
+            print(str(round(x / y * 100))+"%")
 
 
 except :
