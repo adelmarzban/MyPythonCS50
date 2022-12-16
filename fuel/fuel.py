@@ -14,11 +14,11 @@ while True:
             print ("F")
         elif (fuel) * 100 <= int ("1"):
             print ("E")
-        elif x = 0:
-            except 
         else:
             print (str (round (fuel * 100)) + "%")
-    except (ValueError, ZeroDivisionError):
-        print("ValueError", "ZeroDivisionError")
+    except (ZeroDivisionError):
+        print("ZeroDivisionError")
+    except (ValueError):
+        print (ValueError)
         break
     break
