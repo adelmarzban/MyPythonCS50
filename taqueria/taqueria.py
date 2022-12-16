@@ -10,6 +10,9 @@ menu = {
     "Tortilla Salad": 8.00
 }
 while True:
-    order = input("order? ")
-    if order.title() in menu:
-        print("$%.2f" % (menu[order.title()]))
+    try:
+        order = input("order? ")
+        if order.title() in menu:
+            print("$%.2f" % (menu[order.title()]))
+    except(EOFError):
+        break
