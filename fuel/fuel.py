@@ -8,7 +8,7 @@ while True:
         #print (x1, y1)
         #print (type (x1))
         #print (type (x1))
-        if fuel < 1:
+        if fuel > 1:
             break
         if (fuel) * 100 == int ("99") or (fuel) * 100 == int ("100"):
             print ("F")
