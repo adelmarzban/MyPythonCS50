@@ -10,5 +10,5 @@ while True:
             list[fruit.title()] = 1
     except (EOFError):
         for i in list:
-            print(list[i], i.upper())
+            print(list[i], i.upper().sorted())
         break
