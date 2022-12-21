@@ -10,6 +10,12 @@ while True:
             mylist[fruit.title()] = 1
     except EOFError:
         for i in mylist:
-            mylist=(sorted(mylist))
-            print(mylist[i], i.upper())
+            mylist=mylist
+
         break
+sorted_mylist = {k: mylist[k] for k in sorted(mylist)}
+
+print(sorted_mylist)
+
+for i in sorted_mylist:
+    print(sorted_mylist[i], i.upper())
