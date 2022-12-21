@@ -1,14 +1,15 @@
-list = {}
+mylist = {}
 
 while True:
     try:
         fruit = input()
         fruit = fruit.title()
-        if fruit in list:
-            list[fruit.title()] += 1
+        if fruit in mylist:
+            mylist[fruit.title()] += 1
         else:
-            list[fruit.title()] = 1
-    except (EOFError):
-        for i in list:
-            print(list[i], i.upper().sorted())
+            mylist[fruit.title()] = 1
+    except EOFError:
+        for i in mylist:
+            mylist=(sorted(mylist))
+            print(mylist[i], i.upper())
         break
